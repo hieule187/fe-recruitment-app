@@ -1,0 +1,41 @@
+.forgot-password-bg {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.forgot-password-form {
+  background-color: #f0f0f0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-password-inner {
+  background-color: white;
+  width: 400px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.forgot-password-inner form {
+  width: 100%;
+}
+
+.divider {
+  border-bottom: 1px solid #dadde1;
+}
+
+@media only screen and (max-width: 26em) {
+  .forgot-password-inner {
+    width: 300px;
+  }
+}
